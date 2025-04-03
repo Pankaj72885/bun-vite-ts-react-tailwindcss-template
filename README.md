@@ -1,93 +1,88 @@
-# Bun + TypeScript + React + TailwindCSS Template
+# Bun + Vite + TypeScript + React + TailwindCSS Starter Template
 
-This is a starter template for building web applications using:
+Kickstart your web development journey with this pre-configured template that combines:
 
-- **Bun**: A fast JavaScript runtime.
-- **TypeScript**: A strongly typed programming language.
-- **React**: A library for building user interfaces.
-- **TailwindCSS**: A utility-first CSS framework.
+- **Bun**: A blazing-fast JavaScript runtime.
+- **Vite**: A modern build tool for fast development and optimized builds.
+- **TypeScript**: A typed superset of JavaScript for safer coding.
+- **React**: A powerful library for building user interfaces.
+- **TailwindCSS**: A utility-first CSS framework for rapid UI development.
 
-## Features
+## Why Use This Template?
 
-- Pre-configured with Bun for fast builds and runtime.
-- TypeScript support for type safety.
-- TailwindCSS for rapid UI development.
-- React for building dynamic user interfaces.
+- **Speed**: Leverage Bun and Vite for ultra-fast builds and development.
+- **Type Safety**: Write robust code with TypeScript.
+- **Modern UI**: Build dynamic interfaces with React and TailwindCSS.
+- **Ready to Go**: Start coding immediately with minimal setup.
+- **Customizable**: Easily adapt the template to your project needs.
 
 ## Getting Started
 
 ### Prerequisites
 
-- [Bun](https://bun.sh/) installed on your system.
+Ensure you have [Bun](https://bun.sh/) installed on your system.
 
-### Installation
+### Installation Steps
 
-1. Clone the repository:
+1. **Clone the Repository**:
 
-```bash
-git clone https://github.com/your-username/bun-ts-react-tailwindcss-template.git
-cd bun-ts-react-tailwindcss-template
-```
+    ```bash
+    git clone https://github.com/Pankaj72885/bun-vite-ts-react-tailwindcss-template.git
+    cd bun-ts-react-tailwindcss-template
+    ```
 
-2. Install dependencies:
+2. **Install Dependencies**:
 
-```bash
-bun install
-```
+    ```bash
+    bun install
+    ```
 
-3. Start the development server:
+3. **Start the Development Server**:
 
-```bash
-bun run dev
-```
+    ```bash
+    bun run dev
+    ```
 
-4. Open your browser and navigate to `http://localhost:3000`.
+4. **Open in Browser**:
 
-### Start Customizing Your Project
+    Navigate to `http://localhost:3000` to view your application.
 
-Begin your customization journey by editing the main application file:
+### Customizing Your Project
 
-1. **Edit the Entry Point**:
+1. **Edit the Main Component**:
+    - Modify `./src/App.tsx` to start personalizing your app.
 
-- Open `./src/App.tsx` and start modifying the default React component to suit your application's requirements.
-
-2. **Add Components**:
-
-- Create new React components in the `src/components/` directory to build your application's UI.
+2. **Add New Components**:
+    - Create React components in the `src/components/` folder.
 
 3. **Update Static Assets**:
-
-- Replace or add files in the `public/` directory for static assets like images, icons, or fonts.
+    - Add or replace files in the `public/` directory for images, icons, etc.
 
 4. **Configure TypeScript**:
+    - Adjust `tsconfig.json` to fit your project's requirements.
 
-- Adjust the `tsconfig.json` file to align with your project's TypeScript requirements.
+5. **Install Additional Libraries**:
+    - Use `bun add <package-name>` to add new dependencies.
 
-5. **Install Additional Dependencies**:
+6. **Test Your Code**:
+    - Write tests to ensure your application is reliable and maintainable.
 
-- Use `bun add <package-name>` to include any additional libraries or tools needed for your project.
+7. **Deploy Your Application**:
+    - Build the project with `bun run build` and deploy the `dist/` folder to your hosting platform.
 
-6. **Test Your Application**:
-
-- Write tests for your components and logic to ensure reliability and maintainability.
-
-7. **Deploy Your Project**:
-
-- Build the project using `bun run build` and deploy the output in the `dist/` folder to your preferred hosting platform.
-
-### Happy coding!
+### Available Commands
 
 - `bun run dev`: Start the development server.
 - `bun run build`: Build the project for production.
-- `bun run start`: Start the production server.
+- `bun run start`: Run the production server.
 
-## Folder Structure
+## Project Structure
 
 ```
 bun-ts-react-tailwindcss-template/
-├── public/             # Static assets
+├── public/             # Static assets (images, icons, etc.)
 ├── src/                # Source code
-│   ├── assets/         # Asset files like images, fonts, etc.
+│   ├── assets/         # Project-specific assets
 │   ├── components/     # React components
 │   ├── index.css       # Global CSS styles
 │   ├── App.tsx         # Main React component
@@ -95,10 +90,12 @@ bun-ts-react-tailwindcss-template/
 ├── index.html          # HTML entry point
 ├── package.json        # Project metadata and scripts
 ├── tsconfig.json       # TypeScript configuration
-├── vite.config.ts      # Vite configuration file
+├── vite.config.ts      # Vite configuration
 └── README.md           # Project documentation
 ```
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more details.
+
+Happy coding!
